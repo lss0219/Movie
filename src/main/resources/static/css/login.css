@@ -1,0 +1,33 @@
+body{
+    background: url('/static/image/background.jpg') no-repeat;
+    width: 100%;
+}
+.row{
+    margin: 200px 0 0;
+}
+.form-horizontal{
+    margin-top: 30px;
+}
+.form-inline
+{
+    margin-bottom: 15px;
+}
+.control-label
+{
+    width: 60px;
+    display: inline-block;
+    margin-bottom: 0;
+    padding-top: 7px;
+    vertical-align: middle;
+    text-align: right;
+}
+.form-control
+{
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+.btn{
+    width: 120px;
+    margin-left: 110px;
+}

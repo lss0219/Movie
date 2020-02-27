@@ -6,47 +6,29 @@
     <script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/login.css">
 </head>
-<style>
-    body{
-        background: url('/static/image/background.jpg') no-repeat;
-        width: 100%;
-    }
-    .row{
-        margin: 200px 0 0;
-    }
-    .form-horizontal{
-        margin-top: 30px;
-    }
-    .btn{
-        width: 120px;
-    }
-</style>
 <body>
 <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-4 container">
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+    <div class="container col-xs-8 col-sm-6 col-md-5 col-lg-4">
         <form class="form-horizontal" method="post" action="/user/login">
-            <div class="form-group">
-                <label class="col-sm-3 control-label">用户名：</label>
-                <div class="col-sm-7">
-                    <input type="text" class="form-control" name="userName">
-                </div>
+            <div class="form-inline">
+                <label class="control-label">用户名：</label>
+                <input type="text" class="form-control" name="userName">
+            </div>
+            <div class="form-inline">
+                <label class="control-label">密码：</label>
+                <input type="text" class="form-control" name="password">
             </div>
             <div class="form-group">
-                <label class="col-sm-3 control-label">密码：</label>
-                <div class="col-sm-7">
-                    <input type="text" class="form-control" name="password">
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="col-sm-offset-5 col-sm-5">
+                <div>
                     <button type="submit" class="btn btn-default">登录</button>
                 </div>
             </div>
         </form>
     </div>
-    <div class="col-md-4"/></div>
+    <div class="col-xs-1 col-sm-3 col-md-4 col-lg-5"/></div>
 </div>
 </body>
 </html>
